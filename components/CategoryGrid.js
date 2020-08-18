@@ -39,4 +39,4 @@ const styles = StyleSheet.create({
     }
 });
 
-export default CategoryGrid
+export default CategoryGrid;
