@@ -18,6 +18,12 @@ const defaultStackNavOptions = {
     headerStyle: {
         backgroundColor: Colors.primaryColor
     },
+    headerTitleStyle: {
+        fontFamily: 'open-sans-bold'
+    },
+    headerBackTitleStyle: {
+        fontFamily: 'open-sans'
+    },
     headerTintColor: 'white'
 }
 
@@ -75,6 +81,9 @@ const MealsFavTabNavigator =
         })
         : createBottomTabNavigator(tabScreenConfig, {
             tabBarOptions: {
+                labelStyle: {
+                    fontFamily: 'open-sans-bold'
+                },
                 activeTintColor: Colors.accentColor
             }
         });
